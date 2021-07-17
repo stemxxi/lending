@@ -1,0 +1,278 @@
+@import 'fonts.css'; 
+
+
+body{
+    background: #F6F6F6;;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container {
+    max-width: 1207px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+:root {
+    --RB: 'Rubik-Bold';
+    --RM: 'Rubik-Medium';
+    --RR: 'Rubik-Regular';
+    --white: #FFFFFF;
+    --dark: #0B132A;
+    --green: #2FAB73;
+    --gray: #4F5665;
+    
+}
+
+/* HEADER START */
+
+
+.main__content-cards{
+    display: flex;
+    justify-content: space-around;
+    background: var(--white);
+    border-radius: 10px;
+    padding: 74px 0;
+    margin-top: 77px;
+    
+}
+
+.main__card{
+    display: flex;
+}
+
+.main__card-img{
+    width: 55px;
+    height: 55px;
+    margin-right: 37px;
+}
+
+.main__card-title{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: var(--RB);
+    color: var(--dark);  
+}
+
+.main__card-description{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: var(--RR);
+    color: var(--gray);
+}
+
+
+.main__card:nth-of-type(2)::before{
+    position: relative;
+    top: 0;
+    left: -130px;
+    content: '';
+    display: block;
+    width: 2px;
+    background: #EEEFF2;
+    height: 58px;
+    
+
+}
+
+.main__card:nth-of-type(2)::after{
+    position: relative;
+    top: 0;
+    right: -130px;
+    content: '';
+    display: block;
+    width: 2px;
+    background: #EEEFF2;
+    height: 58px;
+    
+
+}
+
+/* HEADER END */
+
+
+
+/* MAIN START */
+
+
+.main__center-title{
+    font-size: 35px;
+    line-height: 50px;
+    font-family: var(--RM);
+    color: var(--dark);
+    width: 384px;
+}
+
+.main__center-description{
+    font-size: 16px;
+    line-height: 30px;
+    width: 428px;
+    font-family: var(--RR);
+    color: var(--gray);
+    margin: 20px 0;
+}
+
+.main__list-link{
+    font-size: 14px;
+    line-height: 30px;
+    color: var(--gray);
+    font-family: var(--RR);
+    margin-bottom: 15px;
+}
+
+.main__list-icon{
+    color: var(--green);
+    font-size: 20px;
+    margin-right: 13px;
+}
+
+.main__content-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 96px;
+}
+
+.main__bottom-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 81px;
+}
+
+.main__bottom-title{
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: var(--dark);
+    font-family: var(--RM);
+}
+
+.main__bottom-description{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    font-family: var(--RR);
+    color: var(--gray);
+    width: 555px;
+    margin-top: 20px;
+
+}
+
+.main__content-bottom{
+    margin-top: 81px;
+    margin-bottom: 150px;
+    
+}
+.main__bottom_card-title{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: var(--RM);
+    color: var(--dark);
+    margin: 30px 0;
+}
+
+.main__bottom-link{
+    font-size: 14px;
+    line-height: 30px;
+    color: var(--gray);
+    font-family: var(--RR);
+    margin-bottom: 10px;
+}
+
+.main__bottom-card{
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 330px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+.bottom__list-icon{
+    color: var(--green);
+    font-size: 14px;
+    margin-right: 26px;
+}
+
+
+.main__bottom-title2{
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--dark);
+    font-family: var(--RM);
+    margin-top: 130px;
+    margin-bottom: 33px;
+}
+
+.main__bottom-btn{
+    font-size: 16px;
+    line-height: 19px;
+    font-family: var(--RB);
+    color: #F53838;;
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 13px 63px;
+    transition: 0.5s;
+}
+
+.main__bottom-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.main__bottom-btn:hover{
+    background: #F53838;
+    border-radius: 50px;
+    color: var(--white);
+}
+
+.main__map{
+    margin-top: 150px;
+    margin-bottom: 87px;
+}
+
+
+.main__map-title{
+    font-size: 35px;
+    line-height: 50px;
+    font-family: var(--RM);
+    width: 383.41px;
+    text-align: center;
+}
+
+.main__map-description{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--gray);
+    font-family: var(--RR);
+    width: 555px;
+    margin-top: 20px;
+    margin-bottom: 156px;
+}
+
+.main__map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__map-img{
+    margin-bottom: 36px;
+}
+/* MAIN END */
